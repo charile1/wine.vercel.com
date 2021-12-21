@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 
-
-const Index: NextPage = () => {
+const BeerPage: NextPage = () => {
   return (
     <div>
-      <h1>Beers</h1>
+      <h1>Beers Page</h1>
       <ul>
         <li><a href="beers/ale">Ale</a></li>
         <li><a href="beers/stouts">Stouts</a></li>
@@ -14,4 +13,4 @@ const Index: NextPage = () => {
   )
 }
 
-export default Index;
+export default BeerPage;
