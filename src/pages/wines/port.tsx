@@ -12,12 +12,12 @@ const PortWinePage: NextPage = () => {
 
   return (
     <div>
-      <h1>Wine</h1>
+      <h1>{name}</h1>
       <main>
         {data.map((wineData: Wine) => {
           return (
             <WineCard 
-              key={`port-wine-list-${wineData.id}`} 
+              key={`${name}-wine-list-${wineData.id}`} 
               wineData={wineData}
             />
           )
