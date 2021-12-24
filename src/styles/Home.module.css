@@ -1,8 +1,14 @@
 .container {
   padding: 0 2rem;
+  background-color: #494c52;
+  /* background-image: url(./winebars.jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border: 1px solid;
 }
 
 .main {
+  color: white;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -28,7 +34,7 @@
   flex-grow: 1;
 }
 
-.title a {
+.title i {
   color: #0070f3;
   text-decoration: none;
 }
@@ -52,6 +58,7 @@
 
 .description {
   margin: 4rem 0;
+  /* border: 1px solid ; */
   line-height: 1.5;
   font-size: 1.5rem;
 }
